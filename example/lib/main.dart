@@ -14,10 +14,10 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  List<String> _filePaths;
+  List<String>? _filePaths;
   final _plugin = FlutterVisionKit();
   bool _processing = false;
-  PlatformException _exception;
+  PlatformException? _exception;
   @override
   void initState() {
     super.initState();
@@ -57,16 +57,16 @@ class _MyAppState extends State<MyApp> {
               Center(child: CircularProgressIndicator()),
             if (_exception != null) ...[
               Text('Exception'),
-              Text(_exception.code),
-              Text(_exception.message)
+              Text(_exception!.code),
+              Text(_exception!.message!)
             ],
             if (_filePaths != null)
               Expanded(
                   child: ListView.builder(
                       shrinkWrap: true,
-                      itemCount: _filePaths.length,
+                      itemCount: _filePaths!.length,
                       itemBuilder: (context, index) => Image.file(
-                          File(_filePaths[index].replaceFirst('file://', '')))))
+                          File(_filePaths![index].replaceFirst('file://', '')))))
           ],
         ),
       ),

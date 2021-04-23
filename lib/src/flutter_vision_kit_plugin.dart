@@ -6,8 +6,8 @@ class FlutterVisionKitPlugin {
   factory FlutterVisionKitPlugin.instance() {
     return FlutterVisionKitPlugin._();
   }
-  Future<List<String>> pickDocument({String simulatorImagePath}) async {
-    final List<dynamic> images = await _channel.invokeMethod('pickDocument', simulatorImagePath);
+  Future<List<String>> pickDocument({String? simulatorImagePath}) async {
+    final List<dynamic>? images = await _channel.invokeMethod('pickDocument', simulatorImagePath);
     return images != null ? images.map((e) => e.toString()).toList() : [];
   }
 }

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0607432e-2744-4c2d-ae2d-aa40fb17eccb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_vision_kit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_vision_kit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,5 +34,51 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed crash when scan cancelled" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed crash when scan cancelled" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="68" key="CommitChangelistDialog2" timestamp="1606034339245">
+      <screen x="0" y="25" width="1680" height="946" />
+    </state>
+    <state x="424" y="68" key="CommitChangelistDialog2/0.25.1680.946@0.25.1680.946" timestamp="1606034339245" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1606080925129">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.25.1920.970/1920.-95.1920.1175@0.25.1920.970" timestamp="1606080925129" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1606080925129">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.25.1920.970/1920.-95.1920.1175@0.25.1920.970" timestamp="1606080925129" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1606080925128">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.25.1920.970/1920.-95.1920.1175@0.25.1920.970" timestamp="1606080925128" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1606080925129">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.25.1920.970/1920.-95.1920.1175@0.25.1920.970" timestamp="1606080925129" />
+    <state width="1638" height="251" key="GridCell.Tab.1.bottom" timestamp="1606080925128">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.1.bottom/0.25.1920.970/1920.-95.1920.1175@0.25.1920.970" timestamp="1606080925128" />
+    <state width="1638" height="251" key="GridCell.Tab.1.center" timestamp="1606080925127">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.1.center/0.25.1920.970/1920.-95.1920.1175@0.25.1920.970" timestamp="1606080925127" />
+    <state width="1638" height="251" key="GridCell.Tab.1.left" timestamp="1606080925127">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.1.left/0.25.1920.970/1920.-95.1920.1175@0.25.1920.970" timestamp="1606080925127" />
+    <state width="1638" height="251" key="GridCell.Tab.1.right" timestamp="1606080925127">
+      <screen x="0" y="25" width="1920" height="970" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.1.right/0.25.1920.970/1920.-95.1920.1175@0.25.1920.970" timestamp="1606080925127" />
+    <state x="440" y="235" key="Vcs.Push.Dialog.v2" timestamp="1606034343330">
+      <screen x="0" y="25" width="1680" height="946" />
+    </state>
+    <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.25.1680.946@0.25.1680.946" timestamp="1606034343330" />
   </component>
 </project>
